@@ -10,8 +10,8 @@
     "express": "^4.16.4",
     "fs-extra": "^7.0.1",
     "merge": "^1.2.1",
-    "sanitize-html": "^1.20.0",
-    "socket.io": "^2.2.0",
-    "winston": "^3.1.0"
+    "sanitize-html": "^1.27.5",
+    "socket.io": "^2.5.1",
+    "winston": "^3.19.0"
   }
 }
