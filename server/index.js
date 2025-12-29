@@ -7,14 +7,14 @@ const fs = require('fs-extra');
 
 // Load settings
 try {
-        stats = fs.lstatSync('settings.json');
+        stats = fs.lstatSync(__dirname + '/settings.json');
 } catch (e) {
         // If settings do not yet exist
         if (e.code == "ENOENT") {
                 try {
                         fs.copySync(
-                                'settings.example.json',
-                                'settings.json'
+                                __dirname + '/settings.example.json',
+                                __dirname + '/settings.json'
                         );
                         console.log("Created new settings file.");
                 } catch(e) {
