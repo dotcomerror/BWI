@@ -39,19 +39,17 @@ config.clean.cordova = {
 
 config.sass = {};
 config.sass.www = {
-        files: [{
-                options: {
-                        style: "compressed",
-                },
-                src: WWW_SRC + "css/style.scss",
-                dest: WWW_BUILD + "css/style.min.css"
-        }, {
-                options: {
-                        style: "compressed",
-                },
-                src: WWW_SRC + "css/readme.scss",
-                dest: WWW_BUILD + "css/readme.min.css"
-        }]
+    options: {
+        implementation: require('sass'),
+        sourceMap: true
+    },
+    files: [{
+        src: WWW_SRC + "css/style.scss",
+        dest: WWW_BUILD + "css/style.min.css"
+    }, {
+        src: WWW_SRC + "css/readme.scss",
+        dest: WWW_BUILD + "css/readme.min.css"
+    }]
 };
 
 config.htmlmin = {};

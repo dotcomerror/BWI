@@ -33,3 +33,6 @@ expertMode = true
 [deployment]
 deploymentTarget = "autoscale"
 run = ["node", "server/index.js"]
+
+[nix]
+channel = "stable-25_05"

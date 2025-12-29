@@ -1,15 +1,18 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 body, body * {
-  font-family: "Tahoma", sans-serif; }
+  font-family: "Tahoma", sans-serif;
+}
 
-input[type="text"] {
+input[type=text] {
   background-color: #fff;
   border: 1px inset #AAA;
-  color: #000; }
+  color: #000;
+}
 
 .xp_bubble, #content {
   background: #ffffe1;
@@ -17,34 +20,41 @@ input[type="text"] {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
-  border: #000000 solid 1px; }
+  border: #000000 solid 1px;
+}
 
 @font-face {
-  font-family: 'Tahoma';
+  font-family: "Tahoma";
   src: url("../font/Tahoma/Tahoma.eot?#iefix") format("embedded-opentype"), url("../font/Tahoma/Tahoma.woff") format("woff"), url("../font/Tahoma/Tahoma.ttf") format("truetype"), url("../font/Tahoma/Tahoma.svg#Tahoma") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 html {
-  overflow-y: auto; }
+  overflow-y: auto;
+}
 
 body {
   background-color: #6d33a0;
   background-image: url("../img/desktop/bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 #content {
   width: 75%;
   max-width: 800px;
   margin: 32px auto;
   padding: 16px 32px;
-  background-color: rgba(255, 255, 225, 0.8); }
+  background-color: rgba(255, 255, 225, 0.8);
+}
 
 #bonziworld {
-  display: none; }
+  display: none;
+}
 
 #titlebar {
-  background-color: rgba(109, 51, 160, 0.85); }
+  background-color: rgba(109, 51, 160, 0.85);
+}
 
 /*# sourceMappingURL=readme.min.css.map */
