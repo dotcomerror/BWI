@@ -36,7 +36,7 @@ var express = require('express');
 var app = express();
 app.set('trust proxy', true);
 if (settings.express.serveStatic)
-        app.use(express.static('../build/www'));
+        app.use(express.static(__dirname + '/../build/www'));
 var server = require('http').createServer(app);
 
 // Init socket.io
