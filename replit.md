@@ -35,6 +35,12 @@ Server settings are in `server/settings.json`:
 - `express.serveStatic`: Enable static file serving
 - `prefs`: Chat room settings
 
+## Deployment
+- **Platform**: Render / Replit Autoscale
+- **Start Command**: `node server/index.js`
+- **Root Directory**: Project root (contains `server/` and `build/` directories)
+
 ## Notes
 - The Cordova-related 404 errors (platform.css, cordova.js) are expected - those files are only for mobile app builds
 - WebGL warning is just a fallback notification, the app works without it
+- Ensure absolute paths are used in `server/index.js` for `settings.json` and static file serving to handle different execution environments.
