@@ -99,13 +99,15 @@
                 }
         },
         "bonziColors": [
-                "red",
-                "brown",
-                "green",
-                "blue",
                 "purple",
+                "blue",
+                "green",
+                "red",
                 "black",
-                "pink"
+                "brown",
+                "pink",
+                "glitch",
+                "code"
         ],
         "banLength": 1440,
         "port": 5000,
