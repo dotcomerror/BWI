@@ -5,7 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
-    "build": "cd src && npm install && gem install sass && npx grunt test_www && cp -r www/* ../build/www/"
+    "build": "cd src && npm install && npx grunt test_www && cp -r www/* ../build/www/"
   },
   "dependencies": {
     "express": "^4.16.4",
