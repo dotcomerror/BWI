@@ -1,7 +1,7 @@
-# BonziWORLD
+# BonziWORLD Independent
 
 ## Overview
-BonziWORLD is a nostalgic chat application featuring animated Bonzi Buddy characters. Users can join chat rooms, customize their Bonzi character, and communicate with others in real-time using Socket.io.
+BonziWORLD Independent is a nostalgic chat application featuring animated Bonzi Buddy characters. Users can join chat rooms, customize their Bonzi character, and communicate with others in real-time using Socket.io.
 
 ## Project Structure
 ```
