@@ -7,7 +7,7 @@
 
 ## What the hell is this?
 
-BonziWORLD is a node.js and socket.io based chat client featuring everyone's most ~~hated~~ loved purple gorilla. The client also uses speak.js to provide text-to-speech voices. Not exactly the original BonziBUDDY voice, but hey, it works.
+BonziWORLD Independent is a node.js and socket.io based chat client featuring everyone's most ~~hated~~ loved purple gorilla. The client also uses speak.js to provide text-to-speech voices. Not exactly the original BonziBUDDY voice, but hey, it works.
 
 ## Why did you make this? Why WOULD you make this?
 
@@ -105,7 +105,7 @@ You guys are awesome. (And so are you, whoever's reading this!) There are also p
 
 ## GitHub
 
-Yep, BonziWORLD is on GitHub! Server and all! If you wanna poke around and see how things work, go check it out! License is MIT, so feel free to use the code for whatever. Just make sure you give proper credit.
+Yep, BonziWORLD Independent is on GitHub! Server and all! If you wanna poke around and see how things work, go check it out! License is MIT, so feel free to use the code for whatever. Just make sure you give proper credit.
 
 [GitHub Repository][github_url]
 
