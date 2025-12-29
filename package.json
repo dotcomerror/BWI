@@ -1,0 +1,21 @@
+{
+  "name": "bonziworld",
+  "version": "1.0.0",
+  "description": "Nostalgic chat application featuring animated Bonzi Buddy characters.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd src && npm install && gem install sass && npx grunt test_www && cp -r www/* ../build/www/"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "merge": "^1.2.1",
+    "sanitize-html": "^1.20.0",
+    "socket.io": "^2.2.0",
+    "winston": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
