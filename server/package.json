@@ -8,10 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.0",
-    "fs-extra": "^11.0.0",
-    "merge": "^2.0.0",
-    "sanitize-html": "^2.10.0",
-    "socket.io": "^4.7.0",
-    "winston": "^3.11.0"
+    "fs-extra": "^11.3.3",
+    "merge": "^2.1.1",
+    "sanitize-html": "^2.17.0",
+    "socket.io": "^4.8.3",
+    "winston": "^3.19.0"
   }
 }
