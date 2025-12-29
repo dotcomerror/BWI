@@ -1,0 +1,115 @@
+Node.js v25.2.1
+}
+  requireStack: []
+  code: 'MODULE_NOT_FOUND',
+    at node:internal/main/run_main_module:33:47 {
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+Error: Cannot find module '/opt/render/project/src/index.js'
+  ^
+  throw err;
+node:internal/modules/cjs/loader:1423
+==> Running 'node index.js'
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+==> Exited with status 1
+==> Deploying...
+==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+==> Build successful 🎉
+==> Uploaded in 4.7s. Compression took 2.2s
+==> Uploading build...
+Done.
+Copied 44 files
+Running "copy:test_www" (copy) task
+2 files created
+Running "string-replace:www_ad" (string-replace) task
+1 files created
+Running "string-replace:www" (string-replace) task
+Created 3 directories, copied 26 files
+Running "copy:www" (copy) task
+2 files compiled
+Running "md:www" (md) task
+>> 1 file created.
+File ../build/www/js/script.min.js created: 193.27 kB → 180.13 kB
+Running "uglify:www" (uglify) task
+Running "babel:www" (babel) task
+Minified 1 files
+Running "htmlmin:www" (htmlmin) task
+WARNING: 5 repetitive deprecation warnings omitted.
+    www/css/style.scss 49:9                                      root stylesheet
+    www/css/lib/jquery-contextmenu/jquery.contextMenu.scss 16:9  @import
+    www/css/lib/jquery-contextmenu/_variables.scss 33:36         @import
+   ╵
+   │                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+33 │ $context-menu-text-color-disabled: lighten($context-menu-text-color, 55) !default;
+   ╷
+More info: https://sass-lang.com/d/color-functions
+color.adjust($color, $lightness: 55%)
+color.scale($color, $lightness: 55%)
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+    www/css/style.scss 49:9                                      root stylesheet
+    www/css/lib/jquery-contextmenu/jquery.contextMenu.scss 16:9  @import
+    www/css/lib/jquery-contextmenu/_variables.scss 33:36         @import
+   ╵
+   │                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+33 │ $context-menu-text-color-disabled: lighten($context-menu-text-color, 55) !default;
+   ╷
+More info and automated migrator: https://sass-lang.com/d/import
+Use color.adjust instead.
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+    www/css/readme.scss 2:9  root stylesheet
+  ╵
+  │         ^^^^^^
+2 │ @import "font";
+  ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+    www/css/readme.scss 1:9  root stylesheet
+  ╵
+  │         ^^^^^^^^
+1 │ @import "common";
+  ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+More info: https://sass-lang.com/d/legacy-js-api
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+    www/css/style.scss 46:9  root stylesheet
+   ╵
+   │         ^^^^^^^
+46 │ @import "logon";
+   ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+    www/css/style.scss 45:9  root stylesheet
+   ╵
+   │         ^^^^^^^^^
+45 │ @import "desktop";
+   ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+    www/css/style.scss 44:9  root stylesheet
+   ╵
+   │         ^^^^^^^
+44 │ @import "bonzi";
+   ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+    www/css/style.scss 43:9  root stylesheet
+   ╵
+   │         ^^^^^^
+43 │ @import "font";
+   ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+    www/css/style.scss 42:9  root stylesheet
+   ╵
+   │         ^^^^^^^^
+42 │ @import "common";
+   ╷
+More info and automated migrator: https://sass-lang.com/d/import
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+More info: h...
